@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "travel-agency"
+  "defaultProject": "travel-agency",
+  "cli": {
+    "analytics": "b57ec763-c817-4615-a3c7-42a58132e348"
+  }
 }
