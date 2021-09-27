@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-sm-4" *ngFor="let vehicle of vehicleDetails">
+            <app-card [imgSrc]="vehicle.vehicleUrl" [imgAlt]="vehicle.vehicleName" [vehicle]="vehicle"></app-card>
+        </div>
+        <!-- <div class="col-sm-4">
+            <img src="../../assets/images/Scorpio.png" alt="">
+           
+            <app-card [imgSrc]="../../assets/images/swift.png"></app-card>
+        </div>
+        <div class="col-sm-4">
+            <app-card [imgSrc]= "../../assets/images/Scorpio.png"></app-card>
+        </div>
+        <div class="col-sm-4">
+            <app-card></app-card>
+        </div> -->
+
+    </div>
+</div>
